@@ -1,0 +1,60 @@
+Comp 1050 Week 4
+Section 1
+1.	Wrist A1
+2.	Wrist A2
+3.	Wrist A3
+4.	Wrist G1
+5.	Wrist G2
+6.	Wrist G3
+7.	Chest A1
+8.	Chest A2
+9.	Chest A3
+10.	Chest G1
+11.	Chest G2
+12.	Chest G3
+13.	Hip A1
+14.	Hip A2
+15.	Hip A3
+16.	Hip G1
+17.	Hip G2
+18.	Hip G3
+19.	Ankle A1
+20.	Ankle A2
+21.	Ankle A3
+22.	Ankle G1
+23.	Ankle G2
+24.	Ankle G3
+25.	Activity Label
+
+Section 2 - Joshua Moore= Visualise Sensor Data(Matplotlib) 
+Plots the data for sitting as a matplotlib inline
+[input] Gathers the values from the 24 distinct data sets 
+[output] Plots the values at three distinct lines on a graph in 2D (from 0-1000): 
+0.9 (0x25dd3327bb0)
+0.3 (0x25dd3327c70)
+-0.2 (0x25dd3327d00)
+
+The graph is showing the 3 data points for the Accelerometer Axis: A1, A2 & A3 from 500-1500. Due to the relatively flat line on the graph this shows that there is relatively no increase in acceleration in a person's wrist during the activity of sitting.  
+Section 3- Baizid Bostami - Sensor Data signal Processing (Scipy)
+For a research, there are a lot of constraints. Noise is one of them. Noise can be originated from different sources. But it can be reduced or removed by applying some filters
+Scipy library is used for scientific computing.
+
+The Graph:
+The x-axix has values from (0-1000). The y-axis has values from  (-0.2 to 1.0)
+The orange line has value of 0.9 at 0x11a5fa820
+The green line has value of 0.3 at 0x11a5fa910
+The blue line has a value of -0.2  at 0x11a5fa9d0
+
+The difference between section 2 and section 3:
+If we look at the data of section 2, we can see that there are a lot of noise. But in section 3, we have filtered the noise using the scipy library. That’s why the sensor data is visually clear now.
+
+
+
+Section 4 - Toby Laidlaw Feature Engineering
+1.       The minimum value of the A1 wrist sensor in the segment 500-1500 for the activity sitting.
+2.       The maximum value of the A1 wrist sensor in the segment 500-1500 for the activity sitting.
+3.       The minimum value of the A2 wrist sensor in the segment 500-1500 for the activity sitting.
+4.       The maximum value of the A2 wrist sensor in the segment 500-1500 for the activity sitting.
+5.       The minimum value of the A3 wrist sensor in the segment 500-1500 for the activity sitting.
+6.       The maximum value of the A3 wrist sensor in the segment 500-1500 for the activity sitting.
+7.       The label sitting.
