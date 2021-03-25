@@ -1,0 +1,6 @@
+Week 5 Prac
+
+Forgot how to clone. Group helped a lot to navigate GitHub.Setting up trello was easy enough but rather unnecessary for the limited amount of tasks that were needed to be allocated today.
+Analysing the data set took a while, trying to analyse and understand large blocks of code while still getting my head around coding proved to be a rather complicated task. Practise with github and navigating the command window on git is still needed. 
+Will allocate time this week to practise. 
+Today was a little clunky trying to have only one person complete tasks and share the screen - would have made more sense for each member to be assigned one set of questions and worked on them then reconnected to discuss them all together at the end or ask for help if someone got stuck. 
